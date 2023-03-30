@@ -1,0 +1,63 @@
+/* Set all margins, padding, and borders to 0 for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Set font properties to inherit for all elements */
+html {
+  font: inherit;
+}
+
+/* Set font-size to 100% for all elements */
+body {
+  font-size: 100%;
+}
+
+/* Remove list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default text-decoration for links */
+a {
+  text-decoration: none;
+}
+
+/* Set default color for links */
+a:link,
+a:visited {
+  color: #0000ff;
+}
+
+/* Remove underline from links on hover */
+a:hover,
+a:active {
+  text-decoration: none;
+}
+
+/* Remove default padding and margin for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set vertical-align to baseline for all inline elements */
+img,
+span,
+input,
+button {
+  vertical-align: baseline;
+}
+
+/* Optional - set box-sizing property to border-box */
+* {
+  box-sizing: border-box;
+}

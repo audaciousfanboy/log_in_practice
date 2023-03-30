@@ -1,0 +1,133 @@
+/* Header CSS*/
+.nav-bar {
+  display: flex;
+  background-color: rgb(134, 134, 194);
+  justify-content: right;
+  align-items: center;
+  height: 5rem;
+  border: 2px solid red;
+}
+.nav-text {
+  font-size: 2rem;
+  color: grey;
+}
+
+/* Footer CSS*/
+.footer-format {
+  text-align: center;
+  font-size: 2rem;
+}
+/*HomePage GRID*/
+.grid-container {
+  display: grid;
+  border: 2px solid green;
+  grid-template-columns: 300px 300px;
+  grid-template-rows: 300px 300px;
+  padding: 1rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.item-1 {
+  border: 2px solid red;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row: 1/-1;
+}
+
+.item-2 {
+  border: 2px solid blue;
+}
+
+.item-3 {
+  border: 2px solid pink;
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.header-img {
+  width: 18rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Log in and Sign Up button home Page */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: #007bff;
+}
+
+.signup-btn {
+  background-color: #28a745;
+}
+
+/*Log In and Sign Up Form FORMAT */
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+/*Error Message*/
+.error-msg {
+  text-align: center;
+  font-size: 2.5rem;
+}
